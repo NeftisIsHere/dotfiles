@@ -28,7 +28,7 @@ export DOCKER_CONFIG="$XDG_CONFIG_HOME"/docker
 export PROTON_ENABLE_WAYLAND=1
 
 # Personal
-export dotfiles="$HOME"/.dotfiles
+export dotfiles="$HOME"/dotfiles
 export dotconf="$dotfiles"/.config
 export PATH="$HOME/.local/bin/:$PATH"
 

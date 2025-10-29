@@ -1,0 +1,15 @@
+gamemode
+lib32-gamemode
+lib32-gnutls
+lib32-mangohud
+lib32-mesa
+lib32-vkd3d
+lib32-vulkan-radeon
+lutris
+mangohud
+steam
+umu-launcher
+vkd3d
+vulkan-radeon
+wine
+winetricks

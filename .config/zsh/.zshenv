@@ -1,6 +1,6 @@
 export ZSH_COMPDUMP="$XDG_CACHE_HOME"/zsh/.zcompdump
 
-source "$HOME/.dotfiles/.config/shells/.profile"
+source "$HOME/dotfiles/.config/shells/.profile"
 
 export HISTFILE="$XDG_STATE_HOME"/zsh/history
 export HISTSIZE=10000

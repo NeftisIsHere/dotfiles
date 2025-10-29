@@ -16,5 +16,5 @@ normal = { family = "FiraMono Nerd Font", style = "Regular" }
 live_config_reload = true
 # My theme
 import = [
-  "~/.dotfiles/.config/alacritty/themes/gruvbox_dark.toml"
+  "~/dotfiles/.config/alacritty/themes/gruvbox_dark.toml"
 ]

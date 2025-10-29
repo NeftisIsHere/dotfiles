@@ -32,5 +32,5 @@ if pgrep -x impala >/dev/null; then
 fi
 
 # If not running → start it
-kitty --title "$title" -e impala
+foot --title "$title" -e impala
 

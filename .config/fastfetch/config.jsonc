@@ -68,14 +68,14 @@
             "folders": "/"
         },
         {
-            "key": "│ {#32}󰉉 data     {#keys}│",
+            "key": "│ {#32}󰉉 home     {#keys}│",
             "type": "disk",
-            "folders": "/mnt/data"
+            "folders": "/home"
         },
         {
-            "key": "│ {#33}󰉉 games    {#keys}│",
+            "key": "│ {#33}󰉉 data     {#keys}│",
             "type": "disk",
-            "folders": "/home/jazz/games"
+            "folders": "/mnt/data"
         },
         {
             "key": "├────────────┤",

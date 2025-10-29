@@ -74,12 +74,12 @@
       "actions": [
         {
           "label": "󰖩",
-          "command": "/home/jazz/.dotfiles/.config/swaync/scripts/network-config.sh",
+          "command": "/home/jazz/dotfiles/.config/swaync/scripts/network-config.sh",
           "type": "normal"
         },
         {
           "label": "",
-          "command": "/home/jazz/.dotfiles/.config/swaync/scripts/bluetooth-config.sh",
+          "command": "/home/jazz/dotfiles/.config/swaync/scripts/bluetooth-config.sh",
           "type": "normal"
         },
         { "label": "󰈔", "command": "dolphin", "type": "normal" },

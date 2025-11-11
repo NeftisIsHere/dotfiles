@@ -1,5 +1,5 @@
 // This config is in the KDL format: https://kdl.dev
-//include "colors.kdl"
+// include "colors.kdl"
 
 environment {
     QT_QPA_PLATFORMTHEME "qt6ct"
@@ -69,9 +69,9 @@ layout {
     border {
 	off
         width 4
-        active-color "#98971a"
-        inactive-color "#505050"
-        urgent-color "#ff8800"
+        // active-color "#98971a"
+        // inactive-color "#505050"
+        // urgent-color "#ff8800"
     }
     
     shadow {
@@ -101,7 +101,7 @@ screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
 
 // Animation settings.
 animations {
-    //off
+   // off
 }
 
 // Open the Waterfox picture-in-picture player as floating by default.

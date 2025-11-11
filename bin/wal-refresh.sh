@@ -4,8 +4,9 @@
 WALLPAPER="$1"
 
 # Apply pywal colors
-wal -q -i "$WALLPAPER" --backend colorz
 # wal -q -i "$WALLPAPER" --backend wal
+# wal -q -i "$WALLPAPER" --backend modern_colorthief
+wal -q -i "$WALLPAPER" --backend colorz
 cp $XDG_CACHE_HOME/wal/niri/niri-colors $dotconf/niri/colors.kdl
 
 cp $XDG_CACHE_HOME/wal/rmpc/pywal16.ron $dotconf/rmpc/themes/pywal16.ron

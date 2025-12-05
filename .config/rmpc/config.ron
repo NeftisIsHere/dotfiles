@@ -35,7 +35,7 @@
             "2":       SwitchToTab("Lyrics"),
             "3":       SwitchToTab("Find"),
             "4":       SwitchToTab("Lists"),
-            "4":       SwitchToTab("Dir"),
+            "5":       SwitchToTab("Dir"),
             "q":       Quit,
             ">":       NextTrack,
             "p":       TogglePause,

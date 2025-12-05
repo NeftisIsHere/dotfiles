@@ -2,10 +2,12 @@ export XDG_DATA_HOME="$HOME"/.local/share
 export XDG_CONFIG_HOME="$HOME"/.config
 export XDG_STATE_HOME="$HOME"/.local/state
 export XDG_CACHE_HOME="$HOME"/.cache
-export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+
+export SSH_AUTH_SOCK=/run/user/1000/gcr/ssh
 export GTK_USE_PORTAL=1
+
 export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
-export EDITOR=nvim
+
 export MOZ_GTK_TITLEBAR_DECORATION=client
 # Other Programs
 export DOTNET_CLI_HOME="$XDG_DATA_HOME"/dotnet 
@@ -31,5 +33,6 @@ export PROTON_ENABLE_WAYLAND=1
 export dotfiles="$HOME"/dotfiles
 export dotconf="$dotfiles"/.config
 export PATH="$HOME/.local/bin/:$PATH"
+export EDITOR=nvim
 
 source "$XDG_CACHE_HOME/wal/colors-tty.sh"

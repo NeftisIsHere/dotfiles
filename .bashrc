@@ -18,7 +18,7 @@ source "$dotconf/shells/.aliases"
 source "$dotconf/shells/.functions"
 
 # NodeJS
-source /usr/share/nvm/init-nvm.sh
+# source /usr/share/nvm/init-nvm.sh
 
 
 # ----------------

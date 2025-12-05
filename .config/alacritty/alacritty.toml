@@ -12,6 +12,7 @@ history = 1000
 multiplier = 2
 [font]
 normal = { family = "FiraMono Nerd Font", style = "Regular" }
+# normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
 [general]
 live_config_reload = true
 # My theme

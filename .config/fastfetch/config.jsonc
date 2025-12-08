@@ -16,7 +16,6 @@
     },
     "modules": [
         "break",
-        "break",
         {
             "type": "title",
             "color": {
@@ -30,18 +29,26 @@
             "type": "os",
             "key": "distribution   ",
             "keyColor": "33",
+            "format": "{pretty-name}"
         },
         {
             "type": "kernel",
             "key": "linux kernel   ",
             "keyColor": "33",
+            "format": "{release}"
+        },
+        {
+            "type": "uptime",
+            "key": "uptime         ",
+            "keyColor": "33"
+
         },
         {
             "type": "packages",
-            "format": "{pacman}",
+            //"format": "{all}",
             "key": "packages       ",
             "keyColor": "33",
-            //"format": "{nix-all} nix + {flatpak-all} flatpak"
+            "format": "{pacman} pacman + {flatpak-all} flatpak"
         },
         {
             "type": "shell",
@@ -61,6 +68,7 @@
             "keyColor": "33",
             "format": "{pretty-name}"
         },
+        "break",
         {
             "type": "cpu",
             "key": "cpu            ",
@@ -69,9 +77,22 @@
             //"showPeCoreCount": true
         },
         {
+            "type": "gpu",
+            "key": "gpu            ",
+            "keyColor": "33",
+            "format": "{name}"
+            //"showPeCoreCount": true
+        },
+        {
             "type": "memory",
             "key": "memory         ",
             "keyColor": "33"
+        },
+        {
+            "type": "swap",
+            "key": "swap           ",
+            "keyColor": "33",
+            //"format": "{}"
         },
         {
             "type": "disk",
@@ -98,7 +119,7 @@
         {
             "type": "colors",
             "symbol": "circle",
-        },
+        }
         //"break",
         //"break",
     ]

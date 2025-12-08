@@ -12,15 +12,12 @@ ripgrep
 wl-clipboard
 zoxide
 
-legcord-bin
-
 nicotine+
 
 onlyoffice-bin
 
 qbittorrent
 
-waterfox-bin
 hunspell
 speech-dispatcher
 

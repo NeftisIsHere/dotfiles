@@ -1,0 +1,20 @@
+foreground=c0caf5
+background=1a1b26
+
+color0=15161E  # black
+color1=f7768e  # red
+color2=9ece6a  # green
+color3=e0af68  # yellow
+color4=7aa2f7  # blue
+color5=bb9af7  # magenta
+color6=7dcfff  # cyan
+color7=a9b1d6  # white
+
+color8=414868   # color black
+color9=f7768e   # color red
+color10=9ece6a   # color green
+color11=e0af68   # color yellow
+color12=7aa2f7   # color blue
+color13=bb9af7   # color magenta
+color14=7dcfff   # color cyan
+color15=c0caf5   # color white

@@ -1,10 +1,9 @@
-
 [window]
 dynamic_title = true
 padding = { x = 5, y = 5 }
 dynamic_padding = true
-opacity = 0.8
-blur = true
+opacity = 0.9
+blur = false
 decorations = "Full"
 decorations_theme_variant = "Dark"
 [scrolling]
@@ -12,10 +11,9 @@ history = 1000
 multiplier = 2
 [font]
 normal = { family = "FiraMono Nerd Font", style = "Regular" }
-# normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
 [general]
 live_config_reload = true
 # My theme
 import = [
-  "~/dotfiles/.config/alacritty/themes/gruvbox_dark.toml"
+  "~/dotfiles/.config/alacritty/themes/tokyo_night.toml"
 ]

@@ -1,0 +1,15 @@
+// =========================================================================
+// Isaac
+// =========================================================================
+
+window-rule {
+    match app-id="isaac-ng.exe"
+    open-floating false
+    open-maximized-to-edges true
+}
+
+window-rule {
+    match app-id="gamescope"
+    open-floating false
+    open-maximized-to-edges true
+}

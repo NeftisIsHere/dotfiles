@@ -1,8 +1,4 @@
-/* ========================================================================
-   swaync - Fancy + Simple Pywal (Waybar-inspired)
-======================================================================== */
-
-@import url("file:///home/jazz/.cache/wal/colors-waybar.css");
+@import url("~/dotfiles/recursos/colors.css");
 
 /* ================= Global ================= */
 * {

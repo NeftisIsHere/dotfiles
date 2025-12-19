@@ -26,3 +26,4 @@ alias edit-functions='$EDITOR $dotconf/shells/.functions'
 
 
 alias start-docker='sudo systemctl start docker'
+alias nvim-kickstart='NVIM_APPNAME="nvim-kickstart" nvim'

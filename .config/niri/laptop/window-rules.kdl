@@ -1,0 +1,124 @@
+include "games-wrules.kdl"
+// =========================================================================
+// Browsers & PiP
+// =========================================================================
+
+window-rule {
+    match app-id=r#"waterfox-default$"# title="^Picture-in-Picture$"
+    open-floating true
+}
+
+window-rule {
+    match app-id=r#"firefox$"# title="^Picture-in-Picture$"
+    open-floating true
+}
+
+// =========================================================================
+// Polkits and Security
+// =========================================================================
+window-rule {
+    match app-id="polkit-gnome-authentication-agent-1"
+    open-floating true
+    open-focused true
+    min-width 400
+    max-width 600
+    min-height 200
+    max-height 400
+}
+
+
+// =========================================================================
+// Steam
+// =========================================================================
+window-rule {
+    match app-id="steam"
+    open-floating true
+}
+window-rule {
+    match title="^Steam$" app-id="steam"
+    open-floating false
+    open-maximized true
+    open-maximized-to-edges false
+}
+window-rule {
+    match app-id="steam" title="Friends List"
+    open-floating true
+    min-height 744
+    min-width 296
+    default-floating-position x=1210 y=63 relative-to="top-left"
+}
+window-rule {
+    match app-id="steam" title=r#"^notificationtoasts_\d+_desktop$"#
+    default-floating-position x=10 y=10 relative-to="bottom-right"
+}
+
+// =========================================================================
+// Pavucontrol and screen capture
+// =========================================================================
+
+window-rule {
+    match app-id="org.pulseaudio.pavucontrol"
+    match title="Volume Control"
+
+    open-floating true
+    default-floating-position x=1030 y=10 relative-to="top-left"
+
+    min-width 500
+    min-height 488
+}
+window-rule {
+    match app-id=r#"^org\.keepassxc\.KeePassXC$"#
+    match app-id=r#"^org\.gnome\.World\.Secrets$"#
+    match title="Bitwarden"
+
+    block-out-from "screen-capture"
+    // Use this instead if you want them visible on third-party screenshot tools.
+    // block-out-from "screencast"
+}
+// =========================================================================
+// Utility
+// =========================================================================
+window-rule {
+    match title="Impala"
+
+    open-floating true
+    default-column-width { fixed 811; }
+    default-window-height { fixed 624; }
+}
+
+window-rule {
+    match title="Bluetui"
+
+    open-floating true
+    default-column-width { fixed 811; }
+    default-window-height { fixed 624; }
+}
+
+// =========================================================================
+// Portals
+// =========================================================================
+
+window-rule {
+    match app-id="xdg-desktop-portal-gtk"
+    open-floating true
+}
+
+window-rule {
+    match app-id="xdg-desktop-portal-gnome"
+    open-floating true
+}
+
+window-rule {
+    match app-id="xdg-desktop-portal-kde"
+    open-floating true
+}
+
+// =========================================================================
+// Decorations only
+// =========================================================================
+
+window-rule {
+    geometry-corner-radius 3
+    clip-to-geometry true
+}
+

@@ -35,4 +35,14 @@ export dotconf="$dotfiles"/.config
 export EDITOR=nvim
 export PATH="$HOME/.local/bin/:$PATH"
 
-source "$XDG_CACHE_HOME/wal/colors-tty.sh"
+if [ -e $HOME/dotfiles/recursos/colors-tty.sh ]; then
+    . $HOME/dotfiles/recursos/colors-tty.sh
+fi
+
+# Ensure Nix is loaded for non-interactive SSH commands (multi-user)
+if [ -e /etc/profile.d/nix.sh ]; then
+    . /etc/profile.d/nix.sh
+fi
+
+
+

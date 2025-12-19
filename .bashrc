@@ -4,7 +4,6 @@ source /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh
 # Interactive & Important setting
 # ----------------
 [[ $- != *i* ]] && return
-fastfetch
 
 # --------------
 # Autocompletion
@@ -30,3 +29,4 @@ PS1='[\u@\h \W]\$ '
 if command -v starship &> /dev/null; then
     eval "$(starship init bash)"
 fi
+fastfetch
